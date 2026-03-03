@@ -27,7 +27,11 @@ COPY --from=builder /usr/local/bin /usr/local/bin
 # Copy application code
 COPY app/ app/
 COPY frontend/ frontend/
-COPY model/ model/
+
+# Model directory — model files are gitignored (too large).
+# Mount via docker volume or download at runtime.
+# The directory is created so the app can give a clear error if model is missing.
+RUN mkdir -p model
 
 EXPOSE 8000
 

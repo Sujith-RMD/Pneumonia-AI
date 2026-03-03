@@ -1,0 +1,22 @@
+# Core
+fastapi>=0.128.0
+uvicorn>=0.30.0
+python-multipart>=0.0.6
+
+# ML / Deep Learning
+tensorflow>=2.15.0
+numpy>=1.26.0
+pillow>=10.0.0
+scikit-learn>=1.4.0
+opencv-python>=4.9.0
+
+# Data visualization (training)
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Validation
+pydantic>=2.5.0
+
+# Testing
+pytest>=8.0.0
+httpx>=0.27.0

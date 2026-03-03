@@ -1,0 +1,42 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Model files (large binaries — download or train locally)
+model/*.h5
+model/*.keras
+
+# Data (too large for GitHub — document download instructions in README)
+data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs & outputs
+*.log
+training/plots/
+runs/
+
+# Environment variables
+.env
